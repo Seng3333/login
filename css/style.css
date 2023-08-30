@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+}
+.container {
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  margin: 12% auto;
+  padding: 50px 0;
+  color: #fff;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+.input_box {
+  margin: 45px;
+  width: 80%;
+  border-bottom: 1px solid #d6c5c5;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+::placeholder {
+  color: #ccc;
+}
+.input_box input {
+  width: 90%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+.login-btn {
+  margin: 40px auto 20px;
+  width: 80%;
+  display: block;
+  outline: none;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: lightskyblue;
+  color: #fff;
+  font-size: 16px;
+}
+.form_label {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 0 18px;
+  text-align: center;
+}
+.form_label a {
+  color: #fff;
+  text-decoration: none;
+}
+.eye {
+  position: absolute;
+}
+#hide1 {
+  display: none;
+}
+.incorrect-show {
+  color: red;
+  margin-left: 45px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>User Login</h1>
+      <div class="input_box">
+        <input
+          type="email"
+          id="myEmail"
+          value=""
+          placeholder="Email"
+          required
+        />
+      </div>
+      <div class="input_box">
+        <input
+          type="password"
+          name="password"
+          id="myPassword"
+          value=""
+          placeholder="Password"
+          required
+        />
+        <span class="eye" onclick="myFunction()">
+          <i id="hide1" class="fa fa-eye"></i>
+          <i id="hide2" class="fa fa-eye-slash"></i>
+        </span>
+      </div>
+      <p id="alert" class="incorrect-show"></p>
+      <button type="submit" class="login-btn" onclick="validation()">
+        Login
+      </button>
+      <div class="form_label">
+        <a href="#">Forgot account?</a> &nbsp;&nbsp;&nbsp;
+        <a href="#">Sign up</a>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
